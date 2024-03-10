@@ -1,0 +1,35 @@
+$d::create([
+        'nama' => 'Richard Hendrik Sikumbang',
+        'panggilan' => 'Coki',
+        'alamat' => 'Margaasih',
+        'hobi' => 'Gaming, Bermusik',
+        'deskripsi' => 'Richard Hendrik Sikumbang Merupakan Seorang Musisi Terkenal dan tersukses',
+        'role' => 'Bassist/ 2nd Vocal',
+        'foto' => 'coki.jpg',
+        'tgl' => '11 April 2000',
+        'slug' => 'coki',
+        'tempat' =>'Bandung'
+    ])
+
+$t::create([
+    "song" => "intro",
+    "cover" => "disc.jpg",
+    "durasi" => "01:30",
+    "year" => "2023"
+])
+
+$a::create([
+    "album" => "War Is Nightmare",
+    "year" => "2022",
+    "slug" => "war",
+    "cover" => "war is nighmare.jpg",
+    "deskripsi" => "album ini dibuat untuk memberikan semangat kepada saudara kita yang ada di palestina, guna memperubatkan kemerdekaan nya dan mendapatkan kebebasan, serta mengingatkan kepada pendengar bahwa perang adalah hal yang sungguh dan sangat menakutkan untuk kita dan jiwa kemanusiaan kita"
+])
+
+$e::create([
+    "nama" => "Suddenly Party",
+    "foto" => "suddenParty.jpg",
+    "deskripsi" => "Acara Small gigs yang diselenggarakan oleh jolWehKolektif",
+    "apt" => "21 Januari 2024",
+    "tempat" => "Papa Beer lounge"
+])
